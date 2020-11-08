@@ -11,7 +11,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def update_array_at_with(board, index, value)
+def update_array_at_with(board, user_input, value)
   array[index] = value
 end
 
