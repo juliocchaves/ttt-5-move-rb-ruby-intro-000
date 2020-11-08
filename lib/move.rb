@@ -16,4 +16,4 @@ def move(board, input, marker)
   board[input] = marker
 end
 
-move(board, 0, "X")
+move(board, 2, "X")
