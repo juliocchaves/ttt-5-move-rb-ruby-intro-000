@@ -8,11 +8,11 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(user_input)
-  user_input.to_i - 1
+  input = user_input.to_i - 1
 end
 
-def update_array_at_with(board, user_input, value)
-  board[user_input] = value
+def update_array_at_with(board, input, value)
+  board[input] = value
 end
 
 update_array_at_with(board, 0, "X")
