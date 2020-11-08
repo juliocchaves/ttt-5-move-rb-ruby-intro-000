@@ -14,5 +14,3 @@ end
 def update_array_at_with(board, user_input, value)
   board[user_input] = value
 end
-
-update_array_at_with(board, 0, "X")
