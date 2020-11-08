@@ -12,6 +12,6 @@ def input_to_index(user_input)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
-def move(board, input, value)
-  board[input] = value
+def move(board, input, marker)
+  board[input] = marker
 end
