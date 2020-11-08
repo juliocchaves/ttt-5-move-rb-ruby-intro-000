@@ -7,11 +7,12 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-board = [" ", " ", " "]
+def input_to_index(user_input)
+  user_input.to_i - 1
+end
+
 def update_array_at_with(array, index, value)
   array[index] = value
 end
 
 update_array_at_with(board, 0, "X")
-
-input_to_index = "5 - 1".to_i
